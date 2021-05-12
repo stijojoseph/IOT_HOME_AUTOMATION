@@ -1,0 +1,55 @@
+[{
+	"Device1": [{
+		"location": "Hall",
+		"appliance": "Fan2",
+		"status": "OFF"
+	}, {
+		"location": "Hall",
+		"appliance": "Light1",
+		"status": "OFF"
+	}, {
+		"location": "Hall",
+		"appliance": "Light2",
+		"status": "OFF"
+	}, {
+		"location": "Hall",
+		"appliance": "Television",
+		"status": "OFF"
+	}]
+}, {
+	"Device2": [{
+		"location": "Kitchen",
+		"appliance": "Light1",
+		"status": "OFF"
+	}, {
+		"location": "Kitchen",
+		"appliance": "Light2",
+		"status": "OFF"
+	}, {
+		"location": "Kitchen",
+		"appliance": "Microwave",
+		"status": "OFF"
+	}, {
+		"location": "Kitchen",
+		"appliance": "Fan1",
+		"status": "OFF"
+	}]
+}, {
+	"Device3": [{
+		"location": "Lobby",
+		"appliance": "Light1",
+		"status": "ON"
+	}, {
+		"location": "Lobby",
+		"appliance": "Fan1",
+		"status": "ON"
+	}, {
+		"location": "Lobby",
+		"appliance": "Fan8",
+		"status": "ON"
+	}, {
+		"location": "Lobby",
+		"appliance": "Light7",
+		"status": "ON"
+	}]
+}]

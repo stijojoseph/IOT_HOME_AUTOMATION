@@ -1,0 +1,40 @@
+On/off
+{"Username":"username1", "AccessKey":"xyz", "Location":"Lobby", "Appliance":"Light1", "state":"5"}
+
+
+control_box_config
+{"Room":"Lobby","Device":"Device3","Appliance1":"Light1","Appliance2":"Light7","Appliance3":"Fan1","Appliance4":"Fan8"}
+
+
+*****************************************************************************************************************************************************************************88
+History
+{"Username":"username1", "AccessKey":"xyz","Location": "Lobby","Appliance":"Light1","from_date":"30/04/2021","to_date":"29/05/2021"}
+
+result format
+
+{"Username":"username1" ,"AccessKey":"xyz","history":[{"DATE": "05/05/2021", "LOCATION": "Lobby", "APPLIANCE": "Fan8", "USERNAME": "username1", "ON_TIME": "07:44:15", "OFF_TIME": "07:46:02", "TOTAL_ON_TIME": "0HRS2MINS"}]}
+
+
+
+
+
+
+************************************************************************************************************
+Livestatus
+{"Username":"username1", "AccessKey":"xyz", "location" : "Lobby","appliance" : "Light1"}
+
+or
+
+{"Username":"username1", "AccessKey":"xyz", "location" : "Lobby","appliance" : "All"}
+
+
+result format
+{"Username":"username1" ,"AccessKey":"xyz","status":{ "location":"Lobby","appliance":"Light1","status": "OFF"}}
+
+or
+
+
+{"Username":"username1" ,"AccessKey":"xyz","status":[{"Device1": [{ "location":"Hall","appliance":"Fan2","status": "OFF"},{ "location":"Hall","appliance":"Light1","status": "OFF"},{ "location":"Hall","appliance":"Light2","status": "OFF"},{ "location":"Hall","appliance":"Television","status": "OFF"}]},{"Device2": [{ "location":"Kitchen","appliance":"Light1","status": "OFF"},{ "location":"Kitchen","appliance":"Light2","status": "OFF"},{ "location":"Kitchen","appliance":"Microwave","status": "OFF"},{ "location":"Kitchen","appliance":"Fan1","status": "OFF"}]},{"Device3": [{ "location":"Lobby","appliance":"Light1","status": "OFF"},{ "location":"Lobby","appliance":"Light7","status": "ON"},{ "location":"Lobby","appliance":"Fan1","status": "OFF"},{ "location":"Lobby","appliance":"Fan8","status": "OFF"}]}]}
+
+
+*************************************************************************************************************************
